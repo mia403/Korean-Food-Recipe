@@ -8,74 +8,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Korean   Food's Recipe</title>
     <!-- These are some CSS codes -->
-    <style>
-        /* General Styles */
-        body {
-            background-color: white;
-            color: olive;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
+        <style>
+            body {
+                background-color: white;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                color: olive;
+            }
     
-        /* Navigation Styles */
-        nav {
-            background-color: black;
-            padding: 15px;
-            text-align: center;
-        }
+            nav {
+                background-color: black;
+                text-align: center;
+                padding: 10px;
+            }
     
-        nav a {
-            color: olive;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
+            nav a {
+                color: olive;
+                margin: 0 15px;
+                text-decoration: none;
+                font-size: 18px;
+            }
     
-        nav a:hover {
-            text-decoration: underline;
-        }
+            nav a:hover {
+                text-decoration: underline;
+            }
     
-        /* Section Styles */
-        section {
-            padding: 20px;
-        }
+            header, section, article, aside {
+                padding: 20px;
+                text-align: center;
+                margin: 0 auto;
+                max-width: 1200px;
+            }
     
-        article {
-            padding: 20px;
-        }
+            h1 {
+                font-size: 2.5em;
+                margin-bottom: 20px;
+            }
     
-        aside {
-            padding: 20px;
-            background-color: #f5f5f5;
-            border-top: 1px solid #ccc;
-        }
+            article h2 {
+                font-size: 2em;
+            }
     
-        aside ul {
-            list-style-type: none;
-            padding: 0;
-        }
+            article p {
+                font-size: 1.2em;
+                line-height: 1.6;
+            }
     
-        aside li {
-            margin: 5px 0;
-        }
+            article img {
+                width: 100%;
+                max-width: 750px;
+                height: auto;
+                border-radius: 8px;
+            }
     
-        aside a {
-            color: olive;
-            text-decoration: none;
-        }
+            a {
+                color: olive;
+                text-decoration: underline;
+            }
     
-        aside a:hover {
-            text-decoration: underline;
-        }
+            aside ul {
+                list-style: none;
+                padding: 0;
+                text-align: center;
+            }
     
-        img {
-            display: block;
-            max-width: 100%;
-            height: auto;
-            margin-top: 10px;
-        }
-    </style>    
+            aside ul li {
+                margin: 10px 0;
+            }
+    
+            aside ul li a {
+                color: olive;
+                text-decoration: underline;
+                font-size: 1.2em;
+            }
+        </style>
 </head>
 <body>
 
@@ -114,11 +121,9 @@
      <p>Craving something delicious? Just click on any category
          below to dive into the recipes that’ll satisfy your taste buds—one bite at a time!</p>
          <ul>
-            <li><a href="">Appetizer</a></li>
-            <li><a href="">Main Dish</a></li>
-            <li><a href="">Side Dishes</a></li>
-            <li><a href="">Deserts</a></li>
-            <li><a href="">Beaverages</a></li>
+            <li><a href="recipe-details.html">Appetizer</a></li>
+            <li><a href="recipe-details.html">Main Dish</a></li>
+            <li><a href="recipe-details.html">Deserts</a></li>
          </ul>
     </aside>
 </body>
